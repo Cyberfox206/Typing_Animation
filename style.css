@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6d18a;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    font-family: sans-serif;
+    width: 700px;
+    height: 50px;
+}
+
+#span_for_animation {
+    font-family: sans-serif;
+    animation: 1000ms infinite lat;
+}
+
+
+
+@keyframes lat {
+    from {
+        border-right: solid black 5px;
+    }
+
+    to {
+        border: none;
+    }
+}
